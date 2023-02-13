@@ -1,0 +1,7 @@
+{
+  "expected_resonances":[5.456, 6.12],
+  "res_type":["notch","reflection"]
+  "electrical_delay":112,
+  "IF_bandwidth":1,
+  "averaging":10
+}

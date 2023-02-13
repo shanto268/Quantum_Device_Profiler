@@ -1,5 +1,60 @@
 # Quantum Devices Profiler
 
+# Setup:
+
+## Configuration Files:
+
+Configuration File Templates for all files
+
+### Resonator Finder:
+
+```json
+{
+  "expected_resonances":[floats], #GHz
+  "res_type":[strings],
+  "electrical_delay":float, #ns
+  "IF_bandwidth":int, #KHz
+  "averaging":int
+}
+```
+
+for example
+
+
+```json
+{
+  "expected_resonances":[5.456, 6.12],
+  "res_type":["notch","reflection"],
+  "electrical_delay":112,
+  "IF_bandwidth":1,
+  "averaging":10
+}
+```
+
+### Instrument Server:
+
+
+```json
+{
+  "instr_uid":"",
+  "instr_name":"",
+  "instr_config": {}
+}
+```
+
+for example
+
+```json
+{
+  "instr_uid": "RS_LO",
+  "instr_name": "Rohde&Schwarz RF Source",
+  "instr_config": {"interface":"TCPIP","address":"192.000.0.000","startup":"Get config")}
+}
+```
+
+
+---
+
 ## Functionality Needed:
 
 **At Zero Flux**

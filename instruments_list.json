@@ -1,0 +1,7 @@
+{
+{
+  "instr_uid": "RS_LO",
+  "instr_name": "Rohde&Schwarz RF Source",
+  "instr_config": {"interface":"TCPIP","address":"192.000.0.000","startup":"Get config")}
+},
+}
